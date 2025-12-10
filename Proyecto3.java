@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Proyecto3 {
     // Funciones de las conversiones. 
-    static double fahrenheit(double x){
+    static double fahrenheit(int x){
         return (x * 9.0/5.0) + 32;
     }
-    static double kelvin(double x){
+    static double kelvin(int x){
         return x + 273.15;
     }
     static double kilometros(double x){
@@ -49,7 +49,7 @@ public class Proyecto3 {
                         + "2. Celsius a Kelvin");
                 int t = sc.nextInt();
                 System.out.println("Introduce el valor en Celsius:");
-                double c = sc.nextDouble();
+                int c = sc.nextInt();
                 
                 switch(t){
                     case 1:
